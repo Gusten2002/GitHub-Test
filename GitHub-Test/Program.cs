@@ -17,9 +17,10 @@ namespace GitHub_Test
                 Console.WriteLine("Are you happy? [Yes/No]");
                 feels = Console.ReadLine().ToLower();
 
-                Console.WriteLine("Yeah, me too :D");
-
             }
+
+            Console.WriteLine("Yeah, me too :D");
+            Console.ReadLine();
 
         }
     }
